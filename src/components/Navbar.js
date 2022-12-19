@@ -33,7 +33,7 @@ export default function Navbar() {
               <a href="#skills" className="md:mr-5 hover:text-white">
                 Skills
               </a>
-              <a href="https://drive.google.com/drive/my-drive" target='_blank' rel="noopener noreferrer" className="md:mr-5 hover:text-white">
+              <a href="https://drive.google.com/file/d/1kJ_pBI12uTiJ0U4On6uZeqdd2wxT_Ehk/view?usp=share_link" target='_blank' rel="noopener noreferrer" className="md:mr-5 hover:text-white">
                 Resumé
               </a>
             </nav>
