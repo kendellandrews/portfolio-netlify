@@ -33,7 +33,7 @@ export default function Navbar() {
               <a href="#skills" className="md:mr-5 hover:text-white">
                 Skills
               </a>
-              <a href="https://drive.google.com/file/d/1WBRXZeLitKtSZeRz-xuG8we1apwBNt5h/view?usp=sharing" target='_blank' rel="noopener noreferrer" className="md:mr-5 hover:text-white">
+              <a href="./public/Kendell Andrews Resume.pdf" target='_blank' rel="noopener noreferrer" className="md:mr-5 hover:text-white">
                 Resumé
               </a>
             </nav>
