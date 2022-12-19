@@ -1,102 +1,83 @@
 export const projects = [
   {
-    title: "Music Manager",
-    subtitle: "MERN Stack",
+    title: "Buddies",
+    subtitle: "Ecommerce",
     description:
-      "Artists no longer need managers! Here's a web app built using the MERN Stack (MongoDB, Express, React, Node) to help artists manage their music, releases, etc. This application is still in development mode, but still has quite a bit of functionality to test.",
-    image: "./musicmanager-project.gif",
-    link: "https://music-manager-client.netlify.app/",
+      "This is an ecommerce story built with React.js that allows you to create an account & sign in, browse products, and add & remove products from your cart",
+    image: "./Buddies thumbnail.png",
+    link: "https://www.youtube.com/watch?v=mCZYKjd_B_U&t=2s",
   },
   {
-    title: "Music Shop",
-    subtitle: "Node, Express, EJS, MongoDB",
+    title: "Social Mountain",
+    subtitle: "Social Media Network",
     description:
-      "Using Node.js, ecommmerce web app with admin and user functionality. Built using Node.js, Express, EJS (templating engine), and MongoDB. Added functionality includes Stripe, user authentication, and using sessiosn to store auth details.",
-    image: "./shop-project.gif",
-    link: "https://cse341matthewrapp-ecommerce.herokuapp.com/",
+      "This is a social media site built with React.js that uses JSON web tokens and localStorage to handle authentication. I also used RESTful methods. Users to create an account, make a post, and see post that are public. New post can be set to either public or private.",
+    image: "./SocialMountainThumbNail.png",
+    link: "https://www.youtube.com/watch?v=me_lgeNQZEg&t=1s",
   },
   {
-    title: "Ur Links",
-    subtitle: "Vanilla JS",
+    title: "Weather App",
+    subtitle: "React.js, Redux",
     description:
-      "Inspired by Linktr.ee, a landing page for links to other types of content. Another project made with only Vanilla Javascript and CSS, to help take my Javascript skills to the next level. Data stored within local storage and images stored in Firebase.",
-    image: "./urlinks-project.gif",
-    link: "https://matthewrapp.github.io/WDD330/project2/index.html",
+      "This weather app built with React.js and using Redux allows you to search specific contries, get basic information about the country, and see the current weather in the capital city.",
+    image: "./Weather App Thumbnail.png",
+    link: "./Weather App Demo.mp4",
   },
   {
-    title: "Todo List",
-    subtitle: "Vanilla JS",
+    title: "Recipe Eatery",
+    subtitle: "React.js, usePerams, Links, Routes, Browser-Router ",
     description:
-      "Simple task manager, made with only Vanilla Javascript and CSS. Project was intended to strengthen my Javascript skills and knowledge, implementing ES6 class-based models while learning how to work with local storage.",
-    image: "./todo-project.gif",
-    link: "https://matthewrapp.github.io/WDD330/todo/index.html",
+      "Recipe site allows you to browse the recipe collection, add a new recipe, and view details of all recipes. This site was intended to strengthen my ability to use Routes and CSS.",
+    image: "./Eatery thumbnail.png",
+    link: "https://youtu.be/xHnMqJjqLJ4",
   }
 ];
 
-export const uxprojects = [
-  {
-    title: "Wonderful World of Color",
-    subtitle: "Desktop/Mobile UX/UI",
-    description:
-      "HUE, The Wonderful World of Color website creation was a project, which required to pick a color, Wikipedia search that color, and re-design the Wikipedia informational page as a website. I choose the color 'Green'.",
-    image: "./hueofcolor-uxproject.jpg",
-    link: "https://www.behance.net/gallery/93460311/HUE-The-Wonderful-World-Of-Color",
-  },
-];
+// export const uxprojects = [
+//   {
+//     title: "Wonderful World of Color",
+//     subtitle: "Desktop/Mobile UX/UI",
+//     description:
+//       "HUE, The Wonderful World of Color website creation was a project, which required to pick a color, Wikipedia search that color, and re-design the Wikipedia informational page as a website. I choose the color 'Green'.",
+//     image: "./hueofcolor-uxproject.jpg",
+//     link: "https://www.behance.net/gallery/93460311/HUE-The-Wonderful-World-Of-Color",
+//   },
+// ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
+
 
 export const relatedSkills = [
   { skill: 'Javascript', lvl: 'great' },
   { skill: 'Typescript', lvl: 'great' },
   { skill: 'React', lvl: 'great' },
-  { skill: 'Node', lvl: 'great' },
-  { skill: 'Express', lvl: 'great' },
-  { skill: 'Angular', lvl: 'good' },
-  { skill: 'PHP', lvl: 'good' },
+  { skill: 'React Native', lvl: 'great' },
+  { skill: 'Node', lvl: 'good' },
+  { skill: 'Express', lvl: 'good' },
   { skill: 'Python', lvl: 'good' },
-  { skill: 'Java', lvl: 'good' },
-  { skill: 'Kotlin', lvl: 'okay' },
-  { skill: 'NoSQL', lvl: 'great' },
+  { skill: 'Sequelize', lvl: 'okay' },
+  { skill: 'PosgreSQL', lvl: 'great' },
   { skill: 'SQL', lvl: 'great' },
-  { skill: 'CSS3', lvl: 'great' },
-  { skill: 'SCSS/SASS', lvl: 'great' },
-  { skill: 'Boostrap', lvl: 'great' },
-  { skill: 'Material UI', lvl: 'great' },
+  { skill: 'CSS', lvl: 'great' },
   { skill: 'Tailwind CSS', lvl: 'good' },
   { skill: 'Netlify', lvl: 'great' },
-  { skill: 'AWS', lvl: 'okay' },
-  { skill: 'Google Cloud', lvl: 'okay' },
   { skill: 'Heroku', lvl: 'good' },
+  { skill: 'AWS', lvl: 'okay' },
   { skill: 'Git', lvl: 'good' },
   { skill: 'Github', lvl: 'great' },
-  // { skill: 'MongoDB', lvl: 'great' },
-  // { skill: 'Firebase', lvl: 'good' },
+  { skill: 'Firebase', lvl: 'good' },
+  { skill: 'Figma', lvl: 'great' },
   // { skill: 'DynamoDB', lvl: 'good' },
   // { skill: 'Mongoose', lvl: 'great' },
   // { skill: 'MySQL', lvl: 'okay' },
-  // { skill: 'PostgreSQL', lvl: 'okay' },
-  // { skill: 'Sequelize', lvl: 'okay' },
 ];
 
 export const softSkills = [
   { skill: 'Communication', lvl: 'great' },
+  { skill: 'Public Speaking', lvl: 'great' },
+  { skill: 'Sales Management', lvl: 'great' },
+  { skill: 'Sales opperations', lvl: 'great' },
   { skill: 'Leadership', lvl: 'great' },
+  { skill: 'Coaching & Mentoring', lvl: 'great' },
   { skill: 'Teamwork', lvl: 'great' },
   { skill: 'Work Ethic', lvl: 'great' },
   { skill: 'Problem Solving', lvl: 'great' },
@@ -108,10 +89,9 @@ export const softSkills = [
 ];
 
 export const unrelatedSkills = [
-  { skill: 'UX/UI', lvl: 'great' },
-  { skill: 'Adobe CC & Apps', lvl: 'good' },
-  { skill: 'Audio Production', lvl: 'great' },
-  { skill: 'Songwriting', lvl: 'great' },
+  { skill: 'UX/UI', lvl: 'okay' },
+  { skill: 'Adobe Apps', lvl: 'okay' },
+  { skill: 'Webflow', lvl: 'great' },
   { skill: 'Wordpress', lvl: 'great' },
 ];
 

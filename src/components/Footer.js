@@ -62,7 +62,7 @@ export default function Footer() {
                 <SocialIcon url="https://open.spotify.com/artist/6y5aoRJCoGqWkIAcg6dsQc?si=93HIAveXSzuNXDVbL1aTUg&dl_branch=1" target='_blank' bgColor='transparent' fgColor='#fff'/>
             </div>
             <div className='mt-6'>
-                <h3 className="title-font text-gray-200 mb-3 pl-2">&copy; {getMonth(new Date().getMonth()) + ' ' + new Date().getFullYear()} | Matthew Rapp Portfolio</h3>
+                <h3 className="title-font text-gray-200 mb-3 pl-2">&copy; {getMonth(new Date().getMonth()) + ' ' + new Date().getFullYear()} | Kendell Andrews</h3>
             </div>        
         </div>
       </div>

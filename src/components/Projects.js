@@ -12,7 +12,7 @@ export default function Projects() {
             Work I've Done
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Here is some of the work Matthew's done recently. I added different types of Web Development work below. If you'd like to see some of Matthew's UX/UI & Graphic Design work, visit his <a className='underline text-green-500' href="https://www.behance.net/matthewrapp" rel="noopener noreferrer" target='_blank'>Behance Profile</a>.
+            Here is some of the work I've done recently. 
           </p>
         </div>
         <div>
